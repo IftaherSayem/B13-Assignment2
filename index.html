@@ -12,9 +12,9 @@
 </head>
 <body class="bg-black font-['Inter']">
     <header>
-        <nav class="mt-[24px]">
+        <nav class="bg-[#1A0B2E] pt-[24px]">
             <div class="text-white max-w-[1200px] w-full mx-auto flex justify-between items-center">
-                <h3 class="text-white font-extrabold text-5xl hover:cursor-pointer ml-[20px] lg:ml-[0px]">Tech<span class="text-transparent bg-clip-text bg-linear-to-tr from-[#F7E93F] from-0% via-[#FB09B4] via-51% to-[#9100F8] to-100%">Wave</span></h3>
+                <h3 class="text-white font-extrabold text-4xl hover:cursor-pointer ml-[20px] lg:ml-[0px]">Tech<span class="text-transparent bg-clip-text bg-linear-to-tr from-[#F7E93F] from-0% via-[#FB09B4] via-51% to-[#9100F8] to-100%">Wave</span></h3>
                 <ul class="hidden lg:flex justify-between gap-[32px] hover:cursor-pointer">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Episodes</a></li>
@@ -24,6 +24,24 @@
                 <img src="assets/hamburger-menu.png" alt="" srcset="" class="mr-[20px] lg:hidden">
             </div>
         </nav>
+
+        <section class="max-w-[1600px] w-full bg-[url(assets/hero-bg.png)]">
+            <div class=" max-w-[550px] w-full mx-auto py-[101px] flex flex-col justify-center items-center text-center">
+                <div class="relative">
+                    <div class="w-[220px] h-[220px] lg:w-[350px] lg:h-[350px] mx-auto rounded-full border border-8 border-[#2A186C] mb-[40px] bg-linear-to-tr from-[#F7E93F] from-0% via-[#FB09B4] via-51% to-[#9100F8] to-100% flex items-center justify-center lg:">
+                        <img src="assets/microphone.png" alt="" srcset="" class="">
+                    </div>
+                    <div class="bg-[#00FF88] text-[#1A0B2E] border border-black rounded-[1000px] font-semibold text-[18px]  py-2 px-4 absolute top-2 left-65 shadow-[4px_4px_40px_#00FF88] lg:left-90">NEW</div>
+                    <h2 class="text-white text-6xl font-extrabold mb-2">TechWave</h2>
+                    <p class="text-[#FFFFFF] mb-6">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <button class="text-white flex gap-[8px] py-[13px] px-[20px] bg-linear-to-tr from-[#F7E93F] from-0% via-[#FB09B4] via-51% to-[#9100F8] to-100% rounded-[10000px] font-semibold hover:cursor-pointer"><i class="fa-brands fa-spotify fa-lg pt-[12px]"></i>Listen On Spotify</button>
+                    <button class="flex gap-[8px] text-[#00FF88] border border-[#00FF88] rounded-[10000px] px-[20px] py-[12px] hover:cursor-pointer"><i class="fa-regular fa-envelope fa-lg pt-[12px]"></i> Subscribe</button>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
